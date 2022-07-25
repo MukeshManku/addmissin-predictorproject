@@ -1,0 +1,200 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: tomato;
+  
+  
+}
+#aj
+{
+    
+    width: 100%;
+    display: block;
+	height:595px;
+	
+    overflow: scroll;
+       
+}
+
+#recordheding
+{
+    height: 40px;
+    width:100%;
+    background-color: cadetblue;
+    
+}
+#recordheding h1 a
+{
+     
+    text-align: center;
+    line-height: 40px;
+    color: white;
+       
+}
+
+#recordheding h1
+{
+  height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+   
+}
+#record table
+{
+   border: 1px solid black;
+    margin-top: 20px;
+   
+    background-color:darkgray;
+    font-size: 15px;
+    
+    
+}
+#record table th
+{
+  border: 1px solid black;
+   padding: 10px;
+    color: brown;
+    background-color: black;
+}
+#record table td
+{
+   border: 1px solid black;
+   padding: 10px;
+}
+.edit_btn
+{
+    padding: 5px 15px;
+    border: 2px solid white;
+    height: 40px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.edit_btn:hover
+{
+   color:coral;
+}
+.del_btn
+{
+   padding: 5px 15px;
+    border: 2px solid white;
+    height: 40px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; 
+}
+.del_btn:hover
+{
+   color:black;
+}
+
+/*--------student details.---*/
+
+
+#stunav
+{
+    height: 40px;
+    width: 100%;
+    display: block;
+    background-color: aqua;
+    padding-left: 75%;
+}
+#stunav li
+{
+    list-style: none;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    
+}
+
+
+#stunav li a
+{
+   text-align: justify;
+    color: black;
+   
+    
+}
+
+/*---------------------------------------*/
+
+
+
+
+
+
+
+#studet
+{
+    height: 350px;
+    width: 50%;
+    background-color: aquamarine;
+    margin-left: 25%;
+        
+}
+#studetailheder
+{
+    height: 60px;
+    color: white;
+    background-color: brown;
+    text-align: center;
+    line-height: 60px;
+}
+#stu_detail_data_record
+{
+    padding-top: 30px;
+    padding-left: 10%;
+    height: 100px;
+    color: red;
+    
+}
+#stu_detail_data_record table td
+{
+    padding-bottom: 10px;
+}
+#stu_but
+{
+    height: 42px;
+    width: 100%;
+    margin-top: 40px;
+   
+    
+}
+#stu_but li
+{
+    list-style: none;
+    line-height: 40px;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 25%;    
+    
+}
+#stu_but li a
+{
+    text-decoration: none;
+    color: blue;
+    display: block;
+    font-weight: 600; 
+    
+}
+
+#stu_but li:hover
+{
+    background-color: blue;
+   
+}
+#stu_but li a:hover
+{
+    color: red;
+}
+
+
+
